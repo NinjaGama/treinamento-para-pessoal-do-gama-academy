@@ -1,4 +1,4 @@
-<h1>Trilha de treinamento <br>
+<h1 align="center">Trilha de treinamento <br>
     para pessoas com deficiência <br>
     do Gama Academy
 </h1>
