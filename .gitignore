@@ -1,6 +1,42 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
+# Ignorar metadados gerados pelo Jekyll
+_site/
+# _site/*
+# !_site/**/
+# _site/assets/*
+# !_site/assets/**/
+# !_site/assets/css/**
+# _site/assets/imagens
+
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+
+# Ignorar pastas geradas pelo Bundler
+.bundle/
+vendor/
+
+Gemfile.lock
+
+# Ignorar os arquivos sujos macOS DS_Store
+.DS_Store
+._.DS_Store
+*.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+# Ignorar os arquivos sujos .directory do Dolphin
+*.directory
+**/.directory
+
+# Não guardar os caches de Firebase no repositório do GitHub/GitLab
+**/.firebase
+
+# Não guardar a pasta compilada 
+builds
+public
+
+# Não guardar a pasta node_modules
+node_modules
+
+# Não guardar as pastas .git
+testes/**/*.git
