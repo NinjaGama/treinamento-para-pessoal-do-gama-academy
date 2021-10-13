@@ -1,0 +1,112 @@
+# Configurações do site
+title: Tutorial do Ninja do Gama Academy
+author: "Ninja do Gama Academy"
+description: Um tutorial fácil, simples e completo para preparar as pessoas com e sem deficiência que participam do Gama Academy
+keywords: dicas, gama, gama-academy, Gama Academy, Itaú, treinamento, trilha, tutorial
+
+baseurl: ""
+url: ""
+
+source              : .
+destination         : ./public
+collections_dir     : .
+
+# Localização e tradução
+defaultLang: pt_BR
+
+# Configurações da construção
+plugins:
+  - html-proofer
+  - jekyll-assets
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-feed
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - rouge
+  - sassc
+relative_links:
+  enabled: true
+  collections: true
+
+sass:
+  line_comments: false
+  sourcemap: never
+  style: expanded
+
+# Configurações do estilo
+highlighter: none
+markdown: CommonMarkGhPages
+
+commonmark:
+  extensions: ["autolink", "strikethrough", "table", "tagfilter"]
+  options: ["DEFAULT", "FOOTNOTES", "LIBERAL_HTML_TAG", "SMART", "VALIDATE_UTF8"]
+
+kramdown:
+    auto_ids:           true
+    footnote_backlink: "⤴"
+    hard_wrap:          false
+    input:              GFM
+    parse_block_html:   true
+    syntax_highlighter: rouge
+    toc_levels:         1..6
+    toc_panel:          true
+
+    syntax_highlighter_opts:
+        disable: true
+        css_class: 'highlight'
+        block:
+            line_numbers: false
+            start_line: 1
+        span:
+            line_numbers: false
+            disable: true
+
+# Manipulação de leitura
+exclude:
+  # Pastas
+  - .sass-cache/
+  - .jekyll-cache/
+  - amostras
+  - backup
+  - gemfiles/
+  - node_modules
+  - scripts
+  - templates
+  - vendor
+  # Arquivos
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+include: 
+  - .htacess
+permalink: /:categories/:title/
+
+assets:
+  source_maps: false
+  destination: "/assets"
+  compression: false
+  gzip: false
+  defaults:
+    integrity:
+      {css, imagens, js}: false
+  caching:
+    enabled: true
+    path: ".jekyll-cache/assets"
+    type: file
+  cdn:
+    baseurl: false
+    destination: false
+    url: null
+  sources:
+    - assets/css
+    - assets/images
+    - assets/js
+
+# Configurações do servidor
+host: localhost
+livereload: true
+port: 1984

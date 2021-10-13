@@ -1,53 +1,6 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Dados de tempo de execução
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Addons binários compilados (https://nodejs.org/api/addons.html)
-build/Release
-
-# Diretórios de dependências
-node_modules/
-jspm_packages/
-
-# Arquivos de Declaração do Typycript V1
-typings/
-
-# Cache datilografado.
-*.tsbuildinfo
-
-# Diretório de cache opcional de NPM
-.npm
-
-# Cache opcional de Eslint
-.eslintcache
-
-# Saída de pacote do NPM
-*.tgz
-
-# Arquivo de integridade de Yarn
-.yarn-integrity
-
-# Arquivo de variáveis de ambiente
-.env
-.env.test
-
-# Arquivos Gatsby.
-.cache/
-public
-
-# Outros arquivos
-Comandos.txt
-index.html
+_site
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
