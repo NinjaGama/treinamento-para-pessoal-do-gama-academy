@@ -70,6 +70,7 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - amostras
+  - assets
   - backup
   - gemfiles/
   - node_modules

@@ -4,12 +4,12 @@
   font-family: "Akrobat";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/akrobat-regular.eot");
-  src: url("../fonts/akrobat-regular.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/akrobat-regular.woff2") format("woff2"),
-       url("../fonts/akrobat-regular.woff") format("woff"),
-       url("../fonts/akrobat-regular.ttf") format("truetype"),
-       url("../fonts/akrobat-regular.svg#Akrobat-Regular") format("svg");
+  src: url("../fonts/akrobat/akrobat-regular.eot");
+  src: url("../fonts/akrobat/akrobat-regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/akrobat/akrobat-regular.woff2") format("woff2"),
+       url("../fonts/akrobat/akrobat-regular.woff") format("woff"),
+       url("../fonts/akrobat/akrobat-regular.ttf") format("truetype"),
+       url("../fonts/akrobat/akrobat-regular.svg#Akrobat-Regular") format("svg");
 }
 
 @font-face
@@ -18,12 +18,12 @@
   font-family: "Akrobat";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/akrobat-bold.eot");
-  src: url("../fonts/akrobat-bold.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/akrobat-bold.woff2") format("woff2"),
-       url("../fonts/akrobat-bold.woff") format("woff"),
-       url("../fonts/akrobat-bold.ttf") format("truetype"),
-       url("../fonts/akrobat-bold.svg#Akrobat-Bold") format("svg");
+  src: url("../fonts/akrobat/akrobat-bold.eot");
+  src: url("../fonts/akrobat/akrobat-bold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/akrobat/akrobat-bold.woff2") format("woff2"),
+       url("../fonts/akrobat/akrobat-bold.woff") format("woff"),
+       url("../fonts/akrobat/akrobat-bold.ttf") format("truetype"),
+       url("../fonts/akrobat/akrobat-bold.svg#Akrobat-Bold") format("svg");
 }
 
 @font-face
@@ -32,12 +32,12 @@
   font-family: "Akrobat";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/akrobat-black.eot");
-  src: url("../fonts/akrobat-black.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/akrobat-black.woff2") format("woff2"),
-       url("../fonts/akrobat-black.woff") format("woff"),
-       url("../fonts/akrobat-black.ttf") format("truetype"),
-       url("../fonts/akrobat-black.svg#Akrobat-Black") format("svg");
+  src: url("../fonts/akrobat/akrobat-black.eot");
+  src: url("../fonts/akrobat/akrobat-black.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/akrobat/akrobat-black.woff2") format("woff2"),
+       url("../fonts/akrobat/akrobat-black.woff") format("woff"),
+       url("../fonts/akrobat/akrobat-black.ttf") format("truetype"),
+       url("../fonts/akrobat/akrobat-black.svg#Akrobat-Black") format("svg");
 }
 
 @font-face
@@ -46,12 +46,12 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/jetbrainsmono-regular.eot");
-  src: url("../fonts/jetbrainsmono-regular.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/jetbrainsmono-regular.woff2") format("woff2"),
-       url("../fonts/jetbrainsmono-regular.woff") format("woff"),
-       url("../fonts/jetbrainsmono-regular.ttf") format("truetype"),
-       url("../fonts/jetbrainsmono-regular.svg#JetBrainsMono-Regular") format("svg");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-regular.eot");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-regular.woff2") format("woff2"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-regular.woff") format("woff"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-regular.ttf") format("truetype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-regular.svg#JetBrainsMono-Regular") format("svg");
 }
 
 @font-face
@@ -60,12 +60,12 @@
   font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 400;
-  src: url("../fonts/jetbrainsmono-italic.eot");
-  src: url("../fonts/jetbrainsmono-italic.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/jetbrainsmono-italic.woff2") format("woff2"),
-       url("../fonts/jetbrainsmono-italic.woff") format("woff"),
-       url("../fonts/jetbrainsmono-italic.ttf") format("truetype"),
-       url("../fonts/jetbrainsmono-italic.svg#JetBrainsMono-Italic") format("svg");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-italic.eot");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-italic.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-italic.woff2") format("woff2"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-italic.woff") format("woff"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-italic.ttf") format("truetype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-italic.svg#JetBrainsMono-Italic") format("svg");
 }
 
 @font-face
@@ -74,12 +74,12 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/jetbrainsmono-bold.eot");
-  src: url("../fonts/jetbrainsmono-bold.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/jetbrainsmono-bold.woff2") format("woff2"),
-       url("../fonts/jetbrainsmono-bold.woff") format("woff"),
-       url("../fonts/jetbrainsmono-bold.ttf") format("truetype"),
-       url("../fonts/jetbrainsmono-bold.svg#JetBrainsMono-Bold") format("svg");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-bold.eot");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-bold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bold.woff2") format("woff2"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bold.woff") format("woff"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bold.ttf") format("truetype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bold.svg#JetBrainsMono-Bold") format("svg");
 }
 
 @font-face
@@ -88,12 +88,12 @@
   font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 700;
-  src: url("../fonts/jetbrainsmono-bolditalic.eot");
-  src: url("../fonts/jetbrainsmono-bolditalic.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/jetbrainsmono-bolditalic.woff2") format("woff2"),
-       url("../fonts/jetbrainsmono-bolditalic.woff") format("woff"),
-       url("../fonts/jetbrainsmono-bolditalic.ttf") format("truetype"),
-       url("../fonts/jetbrainsmono-bolditalic.svg#JetBrainsMono-BoldItalic") format("svg");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-bolditalic.eot");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-bolditalic.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bolditalic.woff2") format("woff2"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bolditalic.woff") format("woff"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bolditalic.ttf") format("truetype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-bolditalic.svg#JetBrainsMono-BoldItalic") format("svg");
 }
 
 @font-face
@@ -102,12 +102,12 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/jetbrainsmono-extrabold.eot");
-  src: url("../fonts/jetbrainsmono-extrabold.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/jetbrainsmono-extrabold.woff2") format("woff2"),
-       url("../fonts/jetbrainsmono-extrabold.woff") format("woff"),
-       url("../fonts/jetbrainsmono-extrabold.ttf") format("truetype"),
-       url("../fonts/jetbrainsmono-extrabold.svg#JetBrainsMono-ExtraBold") format("svg");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-extrabold.eot");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-extrabold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabold.woff2") format("woff2"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabold.woff") format("woff"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabold.ttf") format("truetype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabold.svg#JetBrainsMono-ExtraBold") format("svg");
 }
 
 @font-face
@@ -116,12 +116,12 @@
   font-family: "JetBrains Mono";
   font-style: italic;
   font-weight: 800;
-  src: url("../fonts/jetbrainsmono-extrabolditalic.eot");
-  src: url("../fonts/jetbrainsmono-extrabolditalic.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/jetbrainsmono-extrabolditalic.woff2") format("woff2"),
-       url("../fonts/jetbrainsmono-extrabolditalic.woff") format("woff"),
-       url("../fonts/jetbrainsmono-extrabolditalic.ttf") format("truetype"),
-       url("../fonts/jetbrainsmono-extrabolditalic.svg#JetBrainsMono-ExtraBoldItalic") format("svg");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-extrabolditalic.eot");
+  src: url("../fonts/jetbrainsmono/jetbrainsmono-extrabolditalic.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabolditalic.woff2") format("woff2"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabolditalic.woff") format("woff"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabolditalic.ttf") format("truetype"),
+       url("../fonts/jetbrainsmono/jetbrainsmono-extrabolditalic.svg#JetBrainsMono-ExtraBoldItalic") format("svg");
 }
 
 @font-face
@@ -130,12 +130,12 @@
   font-family: "Kalam";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/kalam-light.eot");
-  src: url("../fonts/kalam-light.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/kalam-light.woff2") format("woff2"),
-       url("../fonts/kalam-light.woff") format("woff"),
-       url("../fonts/kalam-light.ttf") format("truetype"),
-       url("../fonts/kalam-light.svg#kalam-light") format("svg");
+  src: url("../fonts/kalam/kalam-light.eot");
+  src: url("../fonts/kalam/kalam-light.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/kalam/kalam-light.woff2") format("woff2"),
+       url("../fonts/kalam/kalam-light.woff") format("woff"),
+       url("../fonts/kalam/kalam-light.ttf") format("truetype"),
+       url("../fonts/kalam/kalam-light.svg#kalam-light") format("svg");
 }
 
 @font-face
@@ -144,12 +144,12 @@
   font-family: "Kalam";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/kalam-regular.eot");
-  src: url("../fonts/kalam-regular.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/kalam-regular.woff2") format("woff2"),
-       url("../fonts/kalam-regular.woff") format("woff"),
-       url("../fonts/kalam-regular.ttf") format("truetype"),
-       url("../fonts/kalam-regular.svg#kalam-regular") format("svg");
+  src: url("../fonts/kalam/kalam-regular.eot");
+  src: url("../fonts/kalam/kalam-regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/kalam/kalam-regular.woff2") format("woff2"),
+       url("../fonts/kalam/kalam-regular.woff") format("woff"),
+       url("../fonts/kalam/kalam-regular.ttf") format("truetype"),
+       url("../fonts/kalam/kalam-regular.svg#kalam-regular") format("svg");
 }
 
 @font-face
@@ -158,10 +158,10 @@
   font-family: "Kalam";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/kalam-bold.eot");
-  src: url("../fonts/kalam-bold.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/kalam-bold.woff2") format("woff2"),
-       url("../fonts/kalam-bold.woff") format("woff"),
-       url("../fonts/kalam-bold.ttf") format("truetype"),
-       url("../fonts/kalam-bold.svg#kalam-bold") format("svg");
+  src: url("../fonts/kalam/kalam-bold.eot");
+  src: url("../fonts/kalam/kalam-bold.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/kalam/kalam-bold.woff2") format("woff2"),
+       url("../fonts/kalam/kalam-bold.woff") format("woff"),
+       url("../fonts/kalam/kalam-bold.ttf") format("truetype"),
+       url("../fonts/kalam/kalam-bold.svg#kalam-bold") format("svg");
 }
