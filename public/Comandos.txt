@@ -1,6 +1,0 @@
-git config --local --unset credential.helper
-git config user.name "Ninja do Gama Acamdey"
-git config user.email "NinjaGama@users.noreply.github.com"
-eval $(ssh-agent -s)
-ssh-add ~/.ssh/ninja
-ssh -T git@github.com
