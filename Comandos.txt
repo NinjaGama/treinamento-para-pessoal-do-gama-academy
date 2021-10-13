@@ -4,3 +4,5 @@ git config user.email "NinjaGama@users.noreply.github.com"
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/ninja
 ssh -T git@github.com
+
+bundler exec jekyll serve --ssl-cert ./localhost.pem --ssl-key ./localhost-key.pem

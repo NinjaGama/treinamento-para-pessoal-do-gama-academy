@@ -40,3 +40,8 @@ node_modules
 
 # Não guardar as pastas .git
 testes/**/*.git
+
+# Não guardar os certificados
+localhost.pem
+localhost-key.pem
+

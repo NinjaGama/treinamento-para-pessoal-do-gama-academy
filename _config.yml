@@ -11,6 +11,8 @@ source              : .
 destination         : ./public
 collections_dir     : .
 
+# show_dir_listing: BOOL
+
 # Localização e tradução
 defaultLang: pt_BR
 
@@ -32,6 +34,7 @@ relative_links:
   collections: true
 
 sass:
+  sass_dir: "assets/scss"
   line_comments: false
   sourcemap: never
   style: expanded
@@ -109,5 +112,5 @@ assets:
 
 # Configurações do servidor
 host: localhost
-livereload: true
+# livereload: true
 port: 1984
