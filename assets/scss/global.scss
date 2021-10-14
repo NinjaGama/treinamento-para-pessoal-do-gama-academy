@@ -1,3 +1,5 @@
+@import "variables";
+
 *
 {
   -webkit-box-sizing: border-box;
@@ -23,11 +25,22 @@ html,
 body
 {
   height: 100%;
+  width: 100%;
 }
 
 body
 {
-  background-color: var(--teste);
   font-family: 'Akrobat', sans-serif;
-  font-size: 12px;
+  font-size: $base-font-size;
+}
+
+/* Headings */
+/* Cabeçalhos */
+
+@for $i from 1 through 6 
+{
+  h#{$i} 
+  {
+    font-size: $base-font-size + $heading-scale * (6 - $i);
+  }
 }

@@ -87,8 +87,6 @@ GEM
       nokogiri
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-multiple-languages-plugin (1.7.0)
-      jekyll (>= 2.0, < 5.0)
     jekyll-relative-links (0.6.1)
       jekyll (>= 3.3, < 5.0)
     jekyll-sanity (1.6.0)
@@ -162,7 +160,6 @@ DEPENDENCIES
   jekyll-commonmark-ghpages
   jekyll-external-links
   jekyll-feed
-  jekyll-multiple-languages-plugin
   jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
